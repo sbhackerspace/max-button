@@ -3783,6 +3783,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="7" y1="10.5" x2="7.8" y2="11.3" width="0.3048" layer="16"/>
 <wire x1="7.8" y1="11.3" x2="7.8" y2="12.55" width="0.3048" layer="16"/>
 </signal>
+<signal name="PB10">
+<contactref element="U1" pad="19"/>
+</signal>
 <signal name="PB11">
 <contactref element="U1" pad="20"/>
 <wire x1="26.25" y1="5.6" x2="26.25" y2="2.3247375" width="0.254" layer="16"/>
@@ -3821,6 +3824,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="22.3842125" y1="3" x2="21.5842125" y2="3.8" width="0.254" layer="16"/>
 <wire x1="21.5842125" y1="3.8" x2="21.36" y2="3.8" width="0.254" layer="16"/>
 </signal>
+<signal name="PA15">
+<contactref element="U1" pad="24"/>
+</signal>
+<signal name="PA16">
+<contactref element="U1" pad="25"/>
+</signal>
+<signal name="PA17">
+<contactref element="U1" pad="26"/>
+</signal>
+<signal name="PA18">
+<contactref element="U1" pad="27"/>
+</signal>
 <signal name="PA19">
 <contactref element="U1" pad="28"/>
 <wire x1="23.6" y1="7.75" x2="22.75" y2="7.75" width="0.254" layer="16"/>
@@ -3857,6 +3872,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J4" pad="4"/>
 <wire x1="13.5" y1="6.58" x2="13.74" y2="6.34" width="0.254" layer="16"/>
 <wire x1="13.5" y1="8" x2="13.5" y2="6.58" width="0.254" layer="16"/>
+</signal>
+<signal name="PA23">
+<contactref element="U1" pad="32"/>
 </signal>
 <signal name="PA08">
 <contactref element="U1" pad="7"/>
