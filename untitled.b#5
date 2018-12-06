@@ -3571,7 +3571,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J6" pad="VBUS"/>
 <contactref element="F1" pad="2"/>
 <contactref element="U2" pad="1"/>
-<wire x1="11.2" y1="10.3" x2="11.5" y2="10.6" width="0.3048" layer="16"/>
 <wire x1="4.65" y1="18.2" x2="6.8" y2="18.2" width="0.3048" layer="16"/>
 <wire x1="6.8" y1="18.2" x2="8" y2="17" width="0.3048" layer="16"/>
 <wire x1="8" y1="14.65" x2="8" y2="17" width="0.3048" layer="16"/>
@@ -3582,9 +3581,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J7" pad="2"/>
 <wire x1="10" y1="7.54" x2="11.17" y2="6.37" width="0.3048" layer="16"/>
 <wire x1="11.17" y1="6.37" x2="11.19" y2="6.37" width="0.3048" layer="16"/>
-<wire x1="11.19" y1="10" x2="11.19" y2="6.37" width="0.3048" layer="16"/>
-<wire x1="11.5" y1="10.6" x2="11.19" y2="10.29" width="0.3048" layer="16"/>
-<wire x1="11.19" y1="10.29" x2="11.19" y2="10" width="0.3048" layer="16"/>
+<wire x1="11.5" y1="10.6" x2="11.17" y2="10.27" width="0.3048" layer="16"/>
+<wire x1="11.17" y1="10.27" x2="11.17" y2="6.37" width="0.3048" layer="16"/>
 </signal>
 <signal name="D-">
 <contactref element="J6" pad="D-"/>
@@ -3790,7 +3788,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="23,16,762b0800348b161b"/>
+<approved hash="19,16,b73bb4dde8a1eb47"/>
+<approved hash="19,16,b978bb1427682504"/>
+<approved hash="19,16,b8bbbc9de0e1e4c7"/>
+<approved hash="19,16,38793454a828a405"/>
+<approved hash="19,16,373934d4a8a8ab45"/>
+<approved hash="19,16,3f793d14a168a305"/>
+<approved hash="19,16,bf38bdd421a82344"/>
+<approved hash="19,16,b87bb45de821e407"/>
+<approved hash="19,16,bf7bbd1de161e307"/>
+<approved hash="19,16,38b93c94a0e8a4c5"/>
+<approved hash="19,16,49b5090bc206cfa1"/>
+<approved hash="19,16,8b5ee465d9564fa8"/>
 </errors>
 </board>
 </drawing>

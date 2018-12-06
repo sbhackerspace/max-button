@@ -3779,6 +3779,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="42.5" y1="10" x2="41.1" y2="10" width="0.254" layer="16"/>
 <wire x1="41.1" y1="10" x2="41.07" y2="9.97" width="0.254" layer="16"/>
 </signal>
+<signal name="N$2">
+<via x="51.45" y="39.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$3">
+<via x="52.5" y="39.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$5">
+<via x="51.45" y="44.8" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$6">
+<via x="52.5" y="44.8" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$7">
+<via x="1.5" y="44.8" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$8">
+<via x="2.55" y="44.8" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$9">
+<via x="1.5" y="39.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$11">
+<via x="2.55" y="39.2" extent="1-16" drill="0.35"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>

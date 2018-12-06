@@ -12370,7 +12370,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J6" library="SparkFun-Retired" library_urn="urn:adsk.eagle:library:533" deviceset="USB" device="-MICROB"/>
 <part name="U$2" library="1wire" deviceset="DS2413" device="P"/>
 <part name="U1" library="SparkFun-IC-Microcontroller" library_urn="urn:adsk.eagle:library:525" deviceset="ATSAMD21G" device="-M" package3d_urn="urn:adsk.eagle:package:38962/1"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:26136/1" value=".1f"/>
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:26136/1" value=".1f"/>

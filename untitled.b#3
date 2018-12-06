@@ -3378,8 +3378,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2" y1="18.2" x2="1.45" y2="17.65" width="0.254" layer="1"/>
 <wire x1="1.45" y1="17.65" x2="1.4" y2="17.65" width="0.254" layer="1"/>
 <wire x1="2" y1="18.2" x2="1.4" y2="18.8" width="0.254" layer="1"/>
-<wire x1="2.6" y1="21.35" x2="2.75" y2="21.5" width="0.254" layer="16"/>
-<wire x1="2.75" y1="21.5" x2="4.5" y2="21.5" width="0.254" layer="16"/>
+<wire x1="4.65" y1="20.8" x2="4.65" y2="21.35" width="0.3048" layer="16"/>
+<wire x1="4.65" y1="21.35" x2="4.5" y2="21.5" width="0.3048" layer="16"/>
+<wire x1="4.5" y1="21.5" x2="4.35" y2="21.35" width="0.3048" layer="16"/>
+<wire x1="4.35" y1="21.35" x2="3.5" y2="21.35" width="0.3048" layer="16"/>
+<wire x1="3.5" y1="21.35" x2="3.2294" y2="21.35" width="0.3048" layer="16"/>
+<wire x1="2.6" y1="21.35" x2="3.2294" y2="21.35" width="0.3048" layer="16"/>
 </signal>
 <signal name="1W">
 <contactref element="U$2" pad="2"/>
@@ -3780,19 +3784,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="41.1" y1="10" x2="41.07" y2="9.97" width="0.254" layer="16"/>
 </signal>
 <signal name="N$2">
-<via x="52.6" y="39.45" extent="1-16" drill="0.35"/>
-<via x="52.6" y="44.55" extent="1-16" drill="0.35"/>
-<via x="51.95" y="45.05" extent="1-16" drill="0.35"/>
-<via x="51.35" y="44.55" extent="1-16" drill="0.35"/>
-<wire x1="51.95" y1="45.05" x2="52.6" y2="44.55" width="0" layer="19" extent="1-1"/>
-<wire x1="51.35" y1="44.55" x2="51.95" y2="45.05" width="0" layer="19" extent="1-1"/>
-<wire x1="52.6" y1="39.45" x2="52.6" y2="44.55" width="0" layer="19" extent="1-1"/>
+<via x="51.45" y="39.2" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$3">
-<via x="51.95" y="38.95" extent="1-16" drill="0.35"/>
+<via x="52.5" y="39.2" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="N$5">
-<via x="51.35" y="39.45" extent="1-16" drill="0.35"/>
+<via x="51.45" y="44.8" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$6">
+<via x="52.5" y="44.8" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$7">
+<via x="1.5" y="44.8" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$8">
+<via x="2.55" y="44.8" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$9">
+<via x="1.5" y="39.2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$11">
+<via x="2.55" y="39.2" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -3813,8 +3826,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="19,16,b87bb45de821e407"/>
 <approved hash="19,16,bf7bbd1de161e307"/>
 <approved hash="19,16,38b93c94a0e8a4c5"/>
-<approved hash="19,16,49b5090bc206cfa1"/>
-<approved hash="19,16,8b5ee465d9564fa8"/>
+<approved hash="19,16,387b3c75a009a407"/>
+<approved hash="19,16,38793d8761fb6405"/>
+<approved hash="19,16,b878bc7c00000404"/>
+<approved hash="19,16,45be45fc198019c2"/>
+<approved hash="19,16,c5b8c5fc798079c4"/>
+<approved hash="19,16,45bb45f5d989d9c7"/>
+<approved hash="19,16,387e3c7c60006402"/>
+<approved hash="19,16,45b94407187b19c5"/>
+<approved hash="19,16,e4f96d145a1e3c9d"/>
 </errors>
 </board>
 </drawing>

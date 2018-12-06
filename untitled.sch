@@ -12389,7 +12389,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.6X2.8MM" package3d_urn="urn:adsk.eagle:package:40176/1"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="4.7k"/>
-<part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="sn65220_40" deviceset="SN65220" device="DBV"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12508,9 +12507,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="117.8814" y="41.91" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="122.682" y="41.91" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY5" gate="G$1" x="139.7" y="22.86" smashed="yes">
-<attribute name="VALUE" x="139.7" y="25.654" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="GND9" gate="1" x="-10.16" y="60.96" smashed="yes">
 <attribute name="VALUE" x="-12.7" y="58.42" size="1.778" layer="96"/>
 </instance>
@@ -12610,11 +12606,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
 <junction x="246.38" y="144.78"/>
 <junction x="228.6" y="147.32"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
-<pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
-<junction x="139.7" y="22.86"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -12953,6 +12944,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-10.16" y1="71.12" x2="-5.08" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-5.08" y="71.12"/>
 <label x="-15.24" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
+<wire x1="139.7" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
+<label x="142.24" y="22.86" size="1.778" layer="95"/>
+<junction x="139.7" y="22.86"/>
 </segment>
 </net>
 <net name="N$1" class="0">
