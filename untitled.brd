@@ -3378,8 +3378,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2" y1="18.2" x2="1.45" y2="17.65" width="0.254" layer="1"/>
 <wire x1="1.45" y1="17.65" x2="1.4" y2="17.65" width="0.254" layer="1"/>
 <wire x1="2" y1="18.2" x2="1.4" y2="18.8" width="0.254" layer="1"/>
-<wire x1="2.6" y1="21.35" x2="2.75" y2="21.5" width="0.254" layer="16"/>
-<wire x1="2.75" y1="21.5" x2="4.5" y2="21.5" width="0.254" layer="16"/>
+<wire x1="4.65" y1="20.8" x2="4.65" y2="21.35" width="0.3048" layer="16"/>
+<wire x1="4.65" y1="21.35" x2="4.5" y2="21.5" width="0.3048" layer="16"/>
+<wire x1="4.5" y1="21.5" x2="4.35" y2="21.35" width="0.3048" layer="16"/>
+<wire x1="4.35" y1="21.35" x2="3.5" y2="21.35" width="0.3048" layer="16"/>
+<wire x1="3.5" y1="21.35" x2="3.2294" y2="21.35" width="0.3048" layer="16"/>
+<wire x1="2.6" y1="21.35" x2="3.2294" y2="21.35" width="0.3048" layer="16"/>
 </signal>
 <signal name="1W">
 <contactref element="U$2" pad="2"/>
@@ -3822,8 +3826,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="19,16,b87bb45de821e407"/>
 <approved hash="19,16,bf7bbd1de161e307"/>
 <approved hash="19,16,38b93c94a0e8a4c5"/>
-<approved hash="19,16,49b5090bc206cfa1"/>
-<approved hash="19,16,8b5ee465d9564fa8"/>
+<approved hash="19,16,387b3c75a009a407"/>
+<approved hash="19,16,38793d8761fb6405"/>
+<approved hash="19,16,b878bc7c00000404"/>
+<approved hash="19,16,45be45fc198019c2"/>
+<approved hash="19,16,c5b8c5fc798079c4"/>
+<approved hash="19,16,45bb45f5d989d9c7"/>
+<approved hash="19,16,387e3c7c60006402"/>
+<approved hash="19,16,45b94407187b19c5"/>
+<approved hash="19,16,e4f96d145a1e3c9d"/>
 </errors>
 </board>
 </drawing>
