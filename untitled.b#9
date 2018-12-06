@@ -3638,19 +3638,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J6" pad="VBUS"/>
 <contactref element="F1" pad="2"/>
 <contactref element="U2" pad="1"/>
-<wire x1="7.85" y1="14.5" x2="7.8" y2="14.45" width="0.254" layer="16"/>
 <contactref element="J4" pad="2"/>
-<wire x1="7.8" y1="14.55" x2="7.85" y2="14.5" width="0.3048" layer="16"/>
 <wire x1="11.2" y1="6.34" x2="11.2" y2="10.3" width="0.3048" layer="16"/>
 <wire x1="11.2" y1="10.3" x2="11.5" y2="10.6" width="0.3048" layer="16"/>
 <wire x1="4.65" y1="18.2" x2="6.8" y2="18.2" width="0.3048" layer="16"/>
 <wire x1="6.8" y1="18.2" x2="8" y2="17" width="0.3048" layer="16"/>
-<wire x1="8" y1="17" x2="8" y2="14.65" width="0.3048" layer="16"/>
-<wire x1="8" y1="14.65" x2="7.85" y2="14.5" width="0.3048" layer="16"/>
-<wire x1="7.8" y1="14.45" x2="9.55" y2="14.45" width="0.3048" layer="16"/>
+<wire x1="8" y1="14.65" x2="8" y2="17" width="0.3048" layer="16"/>
 <wire x1="9.55" y1="14.45" x2="10" y2="14" width="0.3048" layer="16"/>
 <wire x1="10" y1="14" x2="10" y2="7.54" width="0.3048" layer="16"/>
 <wire x1="10" y1="7.54" x2="11.2" y2="6.34" width="0.3048" layer="16"/>
+<wire x1="7.8" y1="14.45" x2="9.55" y2="14.45" width="0.3048" layer="16"/>
+<wire x1="7.8" y1="14.45" x2="8" y2="14.65" width="0.3048" layer="16"/>
 </signal>
 <signal name="D-">
 <contactref element="J6" pad="D-"/>
