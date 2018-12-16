@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2018-12-16T07:41:07Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "untitled"
+        },
+        "Owner": "Michael Hammock <richardnixonkingofthemoleppl@gmail.com>",
+        "Size": {
+            "X": 54,
+            "Y": 54
+        }
+    }
+}
