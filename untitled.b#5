@@ -157,8 +157,8 @@
 <text x="23" y="18" size="1.27" layer="26" rot="MR0">reset</text>
 <text x="53" y="33.5" size="1.778" layer="26" rot="MR0">OUTPUT</text>
 <text x="1.2" y="33.8" size="1.778" layer="26" rot="MR180">INPUT</text>
-<text x="2.8" y="38.3" size="1.778" layer="25" rot="R90">INPUT</text>
-<text x="53" y="37" size="1.778" layer="25" rot="R90">OUTPUT</text>
+<text x="5.3" y="38.3" size="1.778" layer="25" rot="R90">INPUT</text>
+<text x="50" y="38.5" size="1.27" layer="25" rot="R90">OUTPUT</text>
 <circle x="29.5" y="18" radius="0.26925625" width="0.254" layer="26"/>
 <circle x="37" y="14" radius="0.4272" width="0.254" layer="26"/>
 <circle x="9.6" y="2.3" radius="0.412309375" width="0.254" layer="26"/>

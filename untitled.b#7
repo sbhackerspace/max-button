@@ -2384,9 +2384,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="26.1" y1="13.25" x2="26.1" y2="14.02" width="0.254" layer="16"/>
 <wire x1="26.1" y1="14.02" x2="26.02" y2="14.1" width="0.254" layer="16"/>
 <wire x1="26.75" y1="13.05" x2="26.55" y2="13.25" width="0.254" layer="16"/>
-<via x="15.5" y="21" extent="1-16" drill="0.35"/>
-<via x="15.5" y="16.5" extent="1-16" drill="0.35"/>
-<wire x1="15.5" y1="16.5" x2="15.5" y2="21" width="0.254" layer="1"/>
 <contactref element="U$1" pad="P$3"/>
 <wire x1="23.6" y1="11.25" x2="20.37" y2="11.25" width="0.254" layer="16"/>
 <wire x1="20.37" y1="11.25" x2="20.37" y2="12.315" width="0.254" layer="16"/>
