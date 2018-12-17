@@ -157,8 +157,8 @@
 <text x="23" y="18" size="1.27" layer="26" rot="MR0">reset</text>
 <text x="53" y="33.5" size="1.778" layer="26" rot="MR0">OUTPUT</text>
 <text x="1.2" y="33.8" size="1.778" layer="26" rot="MR180">INPUT</text>
-<text x="2.8" y="38.3" size="1.778" layer="25" rot="R90">INPUT</text>
-<text x="53" y="37" size="1.778" layer="25" rot="R90">OUTPUT</text>
+<text x="5.3" y="38.3" size="1.778" layer="25" rot="R90">INPUT</text>
+<text x="50" y="38.5" size="1.27" layer="25" rot="R90">OUTPUT</text>
 <circle x="29.5" y="18" radius="0.26925625" width="0.254" layer="26"/>
 <circle x="37" y="14" radius="0.4272" width="0.254" layer="26"/>
 <circle x="9.6" y="2.3" radius="0.412309375" width="0.254" layer="26"/>
@@ -2787,14 +2787,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="DO-">
 <contactref element="U1" pad="33"/>
 <contactref element="U3" pad="1"/>
-<wire x1="17.0376" y1="16.77358125" x2="15.905590625" y2="17.905590625" width="0.254" layer="16"/>
-<wire x1="17.86995625" y1="10.269" x2="17.819478125" y2="10.319478125" width="0.254" layer="16"/>
-<wire x1="17.819478125" y1="10.319478125" x2="17.0376" y2="11.10135625" width="0.254" layer="16"/>
-<wire x1="17.0376" y1="11.10135625" x2="17.0376" y2="16.77358125" width="0.254" layer="16"/>
-<wire x1="15.905590625" y1="17.905590625" x2="11.655690625" y2="17.905590625" width="0.254" layer="16"/>
+<wire x1="17.0376" y1="14.77358125" x2="13.905590625" y2="17.905590625" width="0.254" layer="16"/>
+<wire x1="17.88895625" y1="10.25" x2="17.0376" y2="11.10135625" width="0.254" layer="16"/>
+<wire x1="17.0376" y1="11.10135625" x2="17.0376" y2="14.77358125" width="0.254" layer="16"/>
+<wire x1="13.905590625" y1="17.905590625" x2="11.655690625" y2="17.905590625" width="0.254" layer="16"/>
 <wire x1="11.655690625" y1="17.905590625" x2="11.65" y2="17.8999" width="0.254" layer="16"/>
 <wire x1="23.6" y1="10.25" x2="17.88895625" y2="10.25" width="0.254" layer="16"/>
-<wire x1="17.88895625" y1="10.25" x2="17.86995625" y2="10.269" width="0.254" layer="16"/>
 </signal>
 <signal name="DO+">
 <contactref element="U1" pad="34"/>
