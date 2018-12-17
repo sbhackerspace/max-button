@@ -9384,6 +9384,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="160.02" y1="113.03" x2="149.86" y2="113.03" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <junction x="149.86" y="113.03"/>
+<junction x="160.02" y="114.3"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -9394,6 +9395,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="160.02" y1="120.65" x2="149.86" y2="120.65" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <junction x="149.86" y="120.65"/>
+<junction x="160.02" y="119.38"/>
 </segment>
 </net>
 </nets>

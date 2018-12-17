@@ -81,7 +81,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="no"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -91,9 +94,17 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="no"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -8464,6 +8475,70 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </deviceset>
 </devicesets>
 </library>
+<library name="Seeed-Crystal Oscillator" urn="urn:adsk.eagle:library:466">
+<packages>
+<package name="X2-SMD-3.2X1.5X0.55MM" urn="urn:adsk.eagle:footprint:32477/1" library_version="1">
+<wire x1="-1.1" y1="0.75" x2="1.1" y2="0.75" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-0.75" x2="-1.1" y2="-0.75" width="0.127" layer="21"/>
+<smd name="1" x="-1.524" y="0" dx="1.524" dy="0.762" layer="1" roundness="20" rot="R90"/>
+<smd name="2" x="1.524" y="0" dx="1.524" dy="0.762" layer="1" roundness="20" rot="R90"/>
+<text x="-1.651" y="1.016" size="0.889" layer="25" ratio="11">&gt;name</text>
+<text x="-1.651" y="-1.905" size="0.889" layer="27" ratio="11">&gt;value</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="X2-SMD-3.2X1.5X0.55MM" urn="urn:adsk.eagle:package:32493/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="X2-SMD-3.2X1.5X0.55MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CRYSTAL" urn="urn:adsk.eagle:symbol:32468/1" library_version="1">
+<wire x1="1.016" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="95" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
+<pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMD-CRYSTAL-ABS07-32.768KHZ-7PF-20PPM-70K(2P-3.2X1.5MM)" urn="urn:adsk.eagle:component:32495/1" prefix="Y" uservalue="yes" library_version="1">
+<description>306010055</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="X2-SMD-3.2X1.5X0.55MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32493/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="FC-135" constant="no"/>
+<attribute name="VALUE" value="32.768KHZ"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8516,6 +8591,10 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <part name="U3" library="SparkFun-IC-Conversion" library_urn="urn:adsk.eagle:library:522" deviceset="MCP4725" device="SOT-23" package3d_urn="urn:adsk.eagle:package:38775/1" value="TPD2S017"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="Y1" library="Seeed-Crystal Oscillator" library_urn="urn:adsk.eagle:library:466" deviceset="SMD-CRYSTAL-ABS07-32.768KHZ-7PF-20PPM-70K(2P-3.2X1.5MM)" device="" package3d_urn="urn:adsk.eagle:package:32493/1" value="32.768KHZ"/>
+<part name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="7pf"/>
+<part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="7pf"/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8577,8 +8656,8 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <instance part="GND1" gate="1" x="147.32" y="134.62" smashed="yes">
 <attribute name="VALUE" x="144.78" y="132.08" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="154.94" y="129.54" smashed="yes">
-<attribute name="VALUE" x="152.4" y="127" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="154.94" y="132.08" smashed="yes">
+<attribute name="VALUE" x="152.4" y="129.54" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="124.46" y="114.3" smashed="yes">
 <attribute name="VALUE" x="121.92" y="111.76" size="1.778" layer="96"/>
@@ -8672,6 +8751,21 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <instance part="GND10" gate="1" x="119.38" y="-10.16" smashed="yes">
 <attribute name="VALUE" x="116.84" y="-12.7" size="1.778" layer="96"/>
 </instance>
+<instance part="Y1" gate="G$1" x="149.86" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="147.32" y="114.3" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="153.67" y="114.3" size="1.27" layer="96" ratio="10" rot="R90"/>
+</instance>
+<instance part="C4" gate="G$1" x="147.32" y="120.65" smashed="yes" rot="R90">
+<attribute name="NAME" x="146.685" y="121.666" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="151.511" y="121.666" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C5" gate="G$1" x="147.32" y="113.03" smashed="yes" rot="R90">
+<attribute name="NAME" x="146.685" y="114.046" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="151.511" y="114.046" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND13" gate="1" x="142.24" y="107.95" smashed="yes">
+<attribute name="VALUE" x="139.7" y="105.41" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8682,6 +8776,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="147.32" x2="157.48" y2="147.32" width="0.1524" layer="91"/>
 <junction x="160.02" y="147.32"/>
+<junction x="157.48" y="147.32"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="!RESET"/>
@@ -8705,6 +8800,7 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="FB1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
+<junction x="124.46" y="134.62"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="VCC"/>
@@ -8764,11 +8860,13 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+<junction x="147.32" y="137.16"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="154.94" y1="132.08" x2="154.94" y2="134.62" width="0.1524" layer="91"/>
+<junction x="154.94" y="134.62"/>
+<junction x="154.94" y="134.62"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -8874,6 +8972,16 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="U$1" gate="G$1" pin="P$2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <junction x="119.38" y="-7.62"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="142.24" y1="110.49" x2="142.24" y2="113.03" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="120.65" x2="142.24" y2="113.03" width="0.1524" layer="91"/>
+<junction x="142.24" y="113.03"/>
+<junction x="142.24" y="120.65"/>
+<junction x="142.24" y="110.49"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -9266,6 +9374,26 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="R4" gate="G$1" pin="2"/>
 <junction x="119.38" y="22.86"/>
 <junction x="109.22" y="22.86"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA01(XOUT32/SER1:1/TC2:1)"/>
+<pinref part="Y1" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="114.3" x2="160.02" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="113.03" x2="149.86" y2="113.03" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<junction x="149.86" y="113.03"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA00(XIN32/SER1:0/TC2:0)"/>
+<pinref part="Y1" gate="G$1" pin="2"/>
+<wire x1="160.02" y1="119.38" x2="160.02" y2="120.65" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="120.65" x2="149.86" y2="120.65" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<junction x="149.86" y="120.65"/>
 </segment>
 </net>
 </nets>

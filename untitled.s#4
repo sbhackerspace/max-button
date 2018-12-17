@@ -8514,13 +8514,15 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04X2" device="" package3d_urn="urn:adsk.eagle:package:38103/1"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U3" library="SparkFun-IC-Conversion" library_urn="urn:adsk.eagle:library:522" deviceset="MCP4725" device="SOT-23" package3d_urn="urn:adsk.eagle:package:38775/1" value="TPD2S017"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="124.46" y="22.86" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="119.38" y="7.62" smashed="yes" rot="R270"/>
 <instance part="J1" gate="G$1" x="81.28" y="73.66" smashed="yes">
 <attribute name="VALUE" x="76.2" y="66.294" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="76.2" y="81.788" size="1.778" layer="95" font="vector"/>
@@ -8662,6 +8664,13 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <instance part="U3" gate="U1" x="312.42" y="76.2" smashed="yes">
 <attribute name="NAME" x="304.8" y="82.042" size="1.778" layer="95"/>
 <attribute name="VALUE" x="304.8" y="68.58" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="124.46" y="22.86" smashed="yes" rot="R180">
+<attribute name="NAME" x="128.27" y="21.3614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="128.27" y="26.162" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND10" gate="1" x="119.38" y="-10.16" smashed="yes">
+<attribute name="VALUE" x="116.84" y="-12.7" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8861,6 +8870,11 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <label x="294.64" y="76.2" size="1.778" layer="95"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<junction x="119.38" y="-7.62"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -8942,13 +8956,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <label x="27.94" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U$2" gate="A" pin="IO"/>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
-<junction x="109.22" y="22.86"/>
-</segment>
-</net>
 <net name="DO" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="DO"/>
@@ -9018,10 +9025,10 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <label x="-15.24" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
-<wire x1="139.7" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
-<label x="142.24" y="22.86" size="1.778" layer="95"/>
-<junction x="139.7" y="22.86"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
+<label x="134.62" y="22.86" size="1.778" layer="95"/>
+<junction x="129.54" y="22.86"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9249,6 +9256,16 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="U3" gate="U1" pin="AO"/>
 <wire x1="322.58" y1="78.74" x2="325.12" y2="78.74" width="0.1524" layer="91"/>
 <label x="325.12" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="U$2" gate="A" pin="IO"/>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<wire x1="119.38" y1="22.86" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<junction x="119.38" y="22.86"/>
+<junction x="109.22" y="22.86"/>
 </segment>
 </net>
 </nets>
