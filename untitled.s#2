@@ -8983,27 +8983,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <junction x="99.06" y="91.44"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="VIN"/>
-<wire x1="33.02" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
-<label x="22.86" y="124.46" size="1.778" layer="95"/>
-<junction x="33.02" y="124.46"/>
-</segment>
-<segment>
-<wire x1="294.64" y1="127" x2="297.18" y2="127" width="0.1524" layer="91"/>
-<label x="297.18" y="127" size="1.778" layer="95"/>
-<pinref part="J7" gate="G$1" pin="2"/>
-<junction x="294.64" y="127"/>
-</segment>
-<segment>
 <pinref part="U3" gate="U1" pin="SCL"/>
 <wire x1="322.58" y1="76.2" x2="325.12" y2="76.2" width="0.1524" layer="91"/>
 <label x="325.12" y="76.2" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="139.7" x2="33.02" y2="142.24" width="0.1524" layer="91"/>
-<label x="33.02" y="144.78" size="1.778" layer="95"/>
-<junction x="33.02" y="139.7"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -9029,6 +9011,24 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <wire x1="129.54" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 <label x="134.62" y="22.86" size="1.778" layer="95"/>
 <junction x="129.54" y="22.86"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="VIN"/>
+<wire x1="33.02" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
+<label x="22.86" y="124.46" size="1.778" layer="95"/>
+<junction x="33.02" y="124.46"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="139.7" x2="33.02" y2="142.24" width="0.1524" layer="91"/>
+<label x="33.02" y="144.78" size="1.778" layer="95"/>
+<junction x="33.02" y="139.7"/>
+</segment>
+<segment>
+<wire x1="294.64" y1="127" x2="297.18" y2="127" width="0.1524" layer="91"/>
+<label x="297.18" y="127" size="1.778" layer="95"/>
+<pinref part="J7" gate="G$1" pin="2"/>
+<junction x="294.64" y="127"/>
 </segment>
 </net>
 <net name="N$1" class="0">

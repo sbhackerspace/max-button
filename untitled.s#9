@@ -12403,6 +12403,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04X2" device="" package3d_urn="urn:adsk.eagle:package:38103/1"/>
 <part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04X2" device="" package3d_urn="urn:adsk.eagle:package:38103/1"/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12554,6 +12555,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="J7" gate="G$1" x="287.02" y="121.92" smashed="yes">
 <attribute name="NAME" x="283.464" y="127.508" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="283.718" y="116.078" size="1.778" layer="96" font="vector" align="top-left"/>
+</instance>
+<instance part="GND3" gate="1" x="99.06" y="68.58" smashed="yes">
+<attribute name="VALUE" x="96.52" y="66.04" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -12729,10 +12733,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="111.76" y1="71.12" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 <junction x="86.36" y="71.12"/>
 <junction x="111.76" y="71.12"/>
 <label x="86.36" y="71.12" size="1.778" layer="95"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="99.06" y1="71.12" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
+<junction x="99.06" y="71.12"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND@1"/>

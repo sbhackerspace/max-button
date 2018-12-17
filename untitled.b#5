@@ -171,7 +171,7 @@
 <text x="5.3" y="38.3" size="1.778" layer="25" rot="R90">INPUT</text>
 <text x="50" y="38.5" size="1.27" layer="25" rot="R90">OUTPUT</text>
 <circle x="29.5" y="18" radius="0.26925625" width="0.254" layer="26"/>
-<circle x="37" y="14" radius="0.4272" width="0.254" layer="26"/>
+<circle x="38" y="14" radius="0.4272" width="0.254" layer="26"/>
 <circle x="9.6" y="2.3" radius="0.412309375" width="0.254" layer="26"/>
 <circle x="46" y="20" radius="0.25" width="0.254" layer="26"/>
 <text x="22" y="39" size="1.778" layer="25">&lt;3 -Swiss</text>
@@ -2284,7 +2284,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" value="0.1uF" x="19.439" y="12.083" size="0.6096" layer="28" rot="MR0"/>
 </element>
 <element name="FB1" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" package="0603" package3d_urn="urn:adsk.eagle:package:37574/1" value="30Ω/1.8A" x="35.55" y="7" smashed="yes" rot="MR0">
-<attribute name="NAME" x="33.05" y="6.762" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="NAME" x="35.55" y="5.762" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="PROD_ID" value="NDUC-07859" x="35.55" y="7" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="2X5-PTH-1.27MM" package3d_urn="urn:adsk.eagle:package:38290/1" value="CORTEX_DEBUG_PTH" x="33" y="16" smashed="yes" rot="MR180">
@@ -2747,20 +2747,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="PA08">
 <contactref element="U1" pad="7"/>
 <contactref element="J5" pad="3"/>
-<wire x1="34.38681875" y1="5.652" x2="37" y2="5.652" width="0.254" layer="16"/>
-<wire x1="37" y1="5.652" x2="38" y2="6.652" width="0.254" layer="16"/>
+<wire x1="34.33681875" y1="5.702" x2="37.05" y2="5.702" width="0.254" layer="16"/>
+<wire x1="37.05" y1="5.702" x2="38" y2="6.652" width="0.254" layer="16"/>
 <wire x1="38" y1="6.652" x2="38" y2="8.5" width="0.254" layer="16"/>
 <wire x1="38" y1="8.5" x2="39.47" y2="9.97" width="0.254" layer="16"/>
 <wire x1="39.47" y1="9.97" x2="39.53" y2="9.97" width="0.254" layer="16"/>
 <wire x1="30.4" y1="8.75" x2="31.28881875" y2="8.75" width="0.254" layer="16"/>
-<wire x1="31.28881875" y1="8.75" x2="34.38681875" y2="5.652" width="0.254" layer="16"/>
+<wire x1="31.28881875" y1="8.75" x2="34.33681875" y2="5.702" width="0.254" layer="16"/>
 </signal>
 <signal name="PA09">
 <contactref element="U1" pad="8"/>
 <contactref element="J5" pad="5"/>
-<wire x1="30.4" y1="8.25" x2="31.25" y2="8.25" width="0.254" layer="16"/>
-<wire x1="31.25" y1="8.25" x2="34.229" y2="5.271" width="0.254" layer="16"/>
-<wire x1="34.229" y1="5.271" x2="37.371" y2="5.271" width="0.254" layer="16"/>
+<wire x1="30.4" y1="8.25" x2="31.2" y2="8.25" width="0.254" layer="16"/>
+<wire x1="31.2" y1="8.25" x2="34.179" y2="5.271" width="0.254" layer="16"/>
+<wire x1="34.179" y1="5.271" x2="37.371" y2="5.271" width="0.254" layer="16"/>
 <wire x1="37.371" y1="5.271" x2="39.53" y2="7.43" width="0.254" layer="16"/>
 </signal>
 <signal name="PA04">
