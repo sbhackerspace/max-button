@@ -171,7 +171,7 @@
 <text x="5.3" y="38.3" size="1.778" layer="25" rot="R90">INPUT</text>
 <text x="50" y="38.5" size="1.27" layer="25" rot="R90">OUTPUT</text>
 <circle x="29.5" y="18" radius="0.26925625" width="0.254" layer="26"/>
-<circle x="37" y="14" radius="0.4272" width="0.254" layer="26"/>
+<circle x="38" y="14" radius="0.4272" width="0.254" layer="26"/>
 <circle x="9.6" y="2.3" radius="0.412309375" width="0.254" layer="26"/>
 <circle x="46" y="20" radius="0.25" width="0.254" layer="26"/>
 <text x="22" y="39" size="1.778" layer="25">&lt;3 -Swiss</text>
