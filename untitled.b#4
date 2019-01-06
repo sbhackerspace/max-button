@@ -2642,9 +2642,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="28.5" y1="2" x2="23" y2="2" width="0.254" layer="1"/>
 <wire x1="21.5" y1="3.5" x2="21.5" y2="8" width="0.254" layer="1"/>
 <wire x1="21.5" y1="8" x2="21" y2="8.5" width="0.254" layer="1"/>
-<wire x1="17.5" y1="8.5" x2="13.5" y2="12.5" width="0.254" layer="1"/>
+<wire x1="14.5" y1="8.5" x2="13.5" y2="9.5" width="0.254" layer="1"/>
 <wire x1="23" y1="2" x2="21.5" y2="3.5" width="0.254" layer="1"/>
-<wire x1="21" y1="8.5" x2="17.5" y2="8.5" width="0.254" layer="1"/>
+<wire x1="21" y1="8.5" x2="14.5" y2="8.5" width="0.254" layer="1"/>
 <wire x1="5.5" y1="41.5" x2="7.5" y2="43.5" width="0.254" layer="1"/>
 <wire x1="7.5" y1="43.5" x2="8" y2="43.5" width="0.254" layer="1"/>
 <wire x1="5.5" y1="25" x2="5.5" y2="16" width="0.254" layer="1"/>
@@ -2660,7 +2660,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="5.5" y1="16" x2="6.5" y2="15" width="0.254" layer="1"/>
 <wire x1="6.5" y1="15" x2="11.5" y2="15" width="0.254" layer="1"/>
 <wire x1="12.5" y1="15" x2="11.5" y2="15" width="0.254" layer="1"/>
-<wire x1="13.5" y1="12.5" x2="13.5" y2="14" width="0.254" layer="1"/>
+<wire x1="13.5" y1="9.5" x2="13.5" y2="14" width="0.254" layer="1"/>
 <wire x1="13.5" y1="14" x2="12.5" y2="15" width="0.254" layer="1"/>
 <wire x1="11.5" y1="15" x2="11.5" y2="12" width="0.254" layer="16"/>
 <wire x1="11.5" y1="12" x2="11.5" y2="6.68" width="0.254" layer="16"/>

@@ -8601,30 +8601,30 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="119.38" y="7.62" smashed="yes" rot="R270"/>
-<instance part="J1" gate="G$1" x="81.28" y="73.66" smashed="yes">
-<attribute name="VALUE" x="76.2" y="66.294" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="76.2" y="81.788" size="1.778" layer="95" font="vector"/>
+<instance part="U$1" gate="G$1" x="287.02" y="45.72" smashed="yes" rot="R270"/>
+<instance part="J1" gate="G$1" x="284.48" y="220.98" smashed="yes">
+<attribute name="VALUE" x="279.4" y="213.614" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="279.4" y="229.108" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J2" gate="G$1" x="116.84" y="76.2" smashed="yes" rot="R180">
-<attribute name="VALUE" x="121.92" y="83.566" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="121.92" y="68.072" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J2" gate="G$1" x="320.04" y="223.52" smashed="yes" rot="R180">
+<attribute name="VALUE" x="325.12" y="230.886" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="325.12" y="215.392" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="D2" gate="G$1" x="10.16" y="66.04" smashed="yes">
-<attribute name="NAME" x="-2.54" y="74.422" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-2.54" y="58.42" size="1.778" layer="95"/>
+<instance part="D2" gate="G$1" x="292.1" y="149.86" smashed="yes">
+<attribute name="NAME" x="279.4" y="158.242" size="1.778" layer="95"/>
+<attribute name="VALUE" x="279.4" y="142.24" size="1.778" layer="95"/>
 </instance>
-<instance part="J6" gate="G$1" x="121.92" y="99.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="121.92" y="89.535" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="121.92" y="102.87" size="1.778" layer="96" rot="R180"/>
+<instance part="J6" gate="G$1" x="330.2" y="93.98" smashed="yes">
+<attribute name="NAME" x="330.2" y="103.505" size="1.778" layer="95"/>
+<attribute name="VALUE" x="330.2" y="90.17" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="A" x="99.06" y="22.86" smashed="yes">
-<attribute name="VALUE" x="93.98" y="26.035" size="1.778" layer="96"/>
-<attribute name="NAME" x="93.98" y="28.575" size="1.778" layer="95"/>
+<instance part="U$2" gate="A" x="266.7" y="60.96" smashed="yes">
+<attribute name="VALUE" x="261.62" y="64.135" size="1.778" layer="96"/>
+<attribute name="NAME" x="261.62" y="66.675" size="1.778" layer="95"/>
 </instance>
-<instance part="U$2" gate="B" x="99.06" y="10.16" smashed="yes">
-<attribute name="VALUE" x="93.98" y="13.335" size="1.778" layer="96"/>
-<attribute name="NAME" x="93.98" y="15.875" size="1.778" layer="95"/>
+<instance part="U$2" gate="B" x="266.7" y="48.26" smashed="yes">
+<attribute name="VALUE" x="261.62" y="51.435" size="1.778" layer="96"/>
+<attribute name="NAME" x="261.62" y="53.975" size="1.778" layer="95"/>
 </instance>
 <instance part="U1" gate="G$1" x="193.04" y="104.14" smashed="yes">
 <attribute name="NAME" x="162.56" y="150.114" size="1.778" layer="95"/>
@@ -8695,22 +8695,22 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <attribute name="NAME" x="116.84" y="148.844" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="116.84" y="146.812" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="119.38" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="117.8814" y="41.91" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="122.682" y="41.91" size="1.778" layer="96" rot="R90"/>
+<instance part="R2" gate="G$1" x="259.08" y="147.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="257.5814" y="143.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="262.382" y="143.51" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND9" gate="1" x="-10.16" y="60.96" smashed="yes">
-<attribute name="VALUE" x="-12.7" y="58.42" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="271.78" y="144.78" smashed="yes">
+<attribute name="VALUE" x="269.24" y="142.24" size="1.778" layer="96"/>
 </instance>
-<instance part="GND11" gate="1" x="292.1" y="73.66" smashed="yes">
-<attribute name="VALUE" x="289.56" y="71.12" size="1.778" layer="96"/>
+<instance part="GND11" gate="1" x="269.24" y="96.52" smashed="yes">
+<attribute name="VALUE" x="266.7" y="93.98" size="1.778" layer="96"/>
 </instance>
-<instance part="F1" gate="G$1" x="99.06" y="83.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="95.885" y="85.725" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="101.854" y="85.09" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="F1" gate="G$1" x="302.26" y="231.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="299.085" y="233.045" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="305.054" y="232.41" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="119.38" y="53.34" smashed="yes">
-<attribute name="VALUE" x="119.38" y="56.134" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="259.08" y="154.94" smashed="yes">
+<attribute name="VALUE" x="259.08" y="157.734" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="147.32" y="144.78" smashed="yes">
 <attribute name="VALUE" x="147.32" y="147.574" size="1.778" layer="96" align="bottom-center"/>
@@ -8718,38 +8718,38 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <instance part="SUPPLY8" gate="G$1" x="154.94" y="142.24" smashed="yes">
 <attribute name="VALUE" x="154.94" y="145.034" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U2" gate="G$1" x="45.72" y="127" smashed="yes">
-<attribute name="NAME" x="35.56" y="132.588" size="1.778" layer="95"/>
-<attribute name="VALUE" x="35.56" y="119.38" size="1.778" layer="96"/>
+<instance part="U2" gate="G$1" x="116.84" y="200.66" smashed="yes">
+<attribute name="NAME" x="106.68" y="206.248" size="1.778" layer="95"/>
+<attribute name="VALUE" x="106.68" y="193.04" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="33.02" y="134.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.5214" y="130.81" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="36.322" y="130.81" size="1.778" layer="96" rot="R90"/>
+<instance part="R3" gate="G$1" x="104.14" y="208.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="102.6414" y="204.47" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="107.442" y="204.47" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND12" gate="1" x="60.96" y="121.92" smashed="yes">
-<attribute name="VALUE" x="58.42" y="119.38" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="132.08" y="195.58" smashed="yes">
+<attribute name="VALUE" x="129.54" y="193.04" size="1.778" layer="96"/>
 </instance>
-<instance part="J5" gate="G$1" x="287.02" y="99.06" smashed="yes">
-<attribute name="NAME" x="283.464" y="104.648" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="283.718" y="93.218" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="J5" gate="G$1" x="198.12" y="175.26" smashed="yes">
+<attribute name="NAME" x="194.564" y="180.848" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="194.818" y="169.418" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="J7" gate="G$1" x="287.02" y="121.92" smashed="yes">
-<attribute name="NAME" x="283.464" y="127.508" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="283.718" y="116.078" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="J7" gate="G$1" x="198.12" y="198.12" smashed="yes">
+<attribute name="NAME" x="194.564" y="203.708" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="194.818" y="192.278" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="GND3" gate="1" x="99.06" y="68.58" smashed="yes">
-<attribute name="VALUE" x="96.52" y="66.04" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="302.26" y="215.9" smashed="yes">
+<attribute name="VALUE" x="299.72" y="213.36" size="1.778" layer="96"/>
 </instance>
-<instance part="U3" gate="U1" x="312.42" y="76.2" smashed="yes">
-<attribute name="NAME" x="304.8" y="82.042" size="1.778" layer="95"/>
-<attribute name="VALUE" x="304.8" y="68.58" size="1.778" layer="96"/>
+<instance part="U3" gate="U1" x="289.56" y="99.06" smashed="yes">
+<attribute name="NAME" x="281.94" y="104.902" size="1.778" layer="95"/>
+<attribute name="VALUE" x="281.94" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="124.46" y="22.86" smashed="yes" rot="R180">
-<attribute name="NAME" x="128.27" y="21.3614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="128.27" y="26.162" size="1.778" layer="96" rot="R180"/>
+<instance part="R4" gate="G$1" x="292.1" y="60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="295.91" y="59.4614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="295.91" y="64.262" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND10" gate="1" x="119.38" y="-10.16" smashed="yes">
-<attribute name="VALUE" x="116.84" y="-12.7" size="1.778" layer="96"/>
+<instance part="GND10" gate="1" x="287.02" y="27.94" smashed="yes">
+<attribute name="VALUE" x="284.48" y="25.4" size="1.778" layer="96"/>
 </instance>
 <instance part="Y1" gate="G$1" x="149.86" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="147.32" y="114.3" size="1.27" layer="95" ratio="10" rot="R90"/>
@@ -8822,10 +8822,10 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="50.8" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
-<junction x="119.38" y="50.8"/>
+<wire x1="259.08" y1="152.4" x2="259.08" y2="154.94" width="0.1524" layer="91"/>
+<junction x="259.08" y="152.4"/>
 <pinref part="SUPPLY6" gate="G$1" pin="VCC"/>
-<junction x="119.38" y="53.34"/>
+<junction x="259.08" y="154.94"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDDIN"/>
@@ -8845,15 +8845,15 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VOUT"/>
-<wire x1="58.42" y1="129.54" x2="60.96" y2="129.54" width="0.1524" layer="91"/>
-<label x="60.96" y="129.54" size="1.778" layer="95"/>
-<junction x="58.42" y="129.54"/>
+<wire x1="129.54" y1="203.2" x2="132.08" y2="203.2" width="0.1524" layer="91"/>
+<label x="132.08" y="203.2" size="1.778" layer="95"/>
+<junction x="129.54" y="203.2"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="279.4" y1="104.14" x2="276.86" y2="104.14" width="0.1524" layer="91"/>
-<label x="271.78" y="104.14" size="1.778" layer="95"/>
-<junction x="279.4" y="104.14"/>
+<wire x1="190.5" y1="180.34" x2="187.96" y2="180.34" width="0.1524" layer="91"/>
+<label x="182.88" y="180.34" size="1.778" layer="95"/>
+<junction x="190.5" y="180.34"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8923,55 +8923,57 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="D2" gate="G$1" pin="VSS"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="-10.16" y1="63.5" x2="-5.08" y2="63.5" width="0.1524" layer="91"/>
-<junction x="-10.16" y="63.5"/>
-<junction x="-5.08" y="63.5"/>
+<wire x1="271.78" y1="147.32" x2="276.86" y2="147.32" width="0.1524" layer="91"/>
+<junction x="271.78" y="147.32"/>
+<junction x="276.86" y="147.32"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="GND"/>
-<wire x1="124.46" y1="99.06" x2="127" y2="99.06" width="0.1524" layer="91"/>
-<junction x="124.46" y="99.06"/>
+<wire x1="327.66" y1="93.98" x2="325.12" y2="93.98" width="0.1524" layer="91"/>
+<junction x="327.66" y="93.98"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="111.76" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
-<junction x="86.36" y="71.12"/>
-<junction x="111.76" y="71.12"/>
-<label x="86.36" y="71.12" size="1.778" layer="95"/>
+<wire x1="314.96" y1="218.44" x2="302.26" y2="218.44" width="0.1524" layer="91"/>
+<junction x="289.56" y="218.44"/>
+<junction x="314.96" y="218.44"/>
+<label x="289.56" y="218.44" size="1.778" layer="95"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="99.06" y1="71.12" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
-<junction x="99.06" y="71.12"/>
+<wire x1="302.26" y1="218.44" x2="289.56" y2="218.44" width="0.1524" layer="91"/>
+<junction x="302.26" y="218.44"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="58.42" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="198.12" x2="132.08" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<junction x="58.42" y="124.46"/>
-<junction x="60.96" y="124.46"/>
+<junction x="129.54" y="198.12"/>
+<junction x="132.08" y="198.12"/>
 </segment>
 <segment>
-<wire x1="279.4" y1="127" x2="276.86" y2="127" width="0.1524" layer="91"/>
-<label x="271.78" y="127" size="1.778" layer="95"/>
+<wire x1="190.5" y1="203.2" x2="187.96" y2="203.2" width="0.1524" layer="91"/>
+<label x="182.88" y="203.2" size="1.778" layer="95"/>
 <pinref part="J7" gate="G$1" pin="1"/>
-<junction x="279.4" y="127"/>
+<junction x="190.5" y="203.2"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="294.64" y1="104.14" x2="297.18" y2="104.14" width="0.1524" layer="91"/>
-<label x="297.18" y="104.14" size="1.778" layer="95"/>
-<junction x="294.64" y="104.14"/>
+<wire x1="205.74" y1="180.34" x2="208.28" y2="180.34" width="0.1524" layer="91"/>
+<label x="208.28" y="180.34" size="1.778" layer="95"/>
+<junction x="205.74" y="180.34"/>
 </segment>
 <segment>
 <pinref part="U3" gate="U1" pin="VSS"/>
-<wire x1="302.26" y1="76.2" x2="292.1" y2="76.2" width="0.1524" layer="91"/>
-<label x="294.64" y="76.2" size="1.778" layer="95"/>
+<wire x1="279.4" y1="99.06" x2="269.24" y2="99.06" width="0.1524" layer="91"/>
+<label x="271.78" y="99.06" size="1.778" layer="95"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+<junction x="279.4" y="99.06"/>
+<junction x="269.24" y="99.06"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<junction x="119.38" y="-7.62"/>
+<junction x="287.02" y="30.48"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -9025,9 +9027,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <net name="1W" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="40.64" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
-<label x="119.38" y="33.02" size="1.778" layer="95" rot="R90"/>
-<junction x="119.38" y="40.64"/>
+<wire x1="259.08" y1="142.24" x2="259.08" y2="139.7" width="0.1524" layer="91"/>
+<label x="259.08" y="134.62" size="1.778" layer="95" rot="R90"/>
+<junction x="259.08" y="142.24"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PA09(I2C/AIN17/SER0:1+)"/>
@@ -9038,10 +9040,10 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
-<junction x="86.36" y="76.2"/>
-<junction x="111.76" y="76.2"/>
-<label x="86.36" y="76.2" size="1.778" layer="95"/>
+<wire x1="314.96" y1="223.52" x2="289.56" y2="223.52" width="0.1524" layer="91"/>
+<junction x="289.56" y="223.52"/>
+<junction x="314.96" y="223.52"/>
+<label x="289.56" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DIO" class="0">
@@ -9053,97 +9055,98 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="73.66" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
-<label x="86.36" y="73.66" size="1.778" layer="95"/>
-<junction x="86.36" y="73.66"/>
+<wire x1="289.56" y1="220.98" x2="292.1" y2="220.98" width="0.1524" layer="91"/>
+<label x="289.56" y="220.98" size="1.778" layer="95"/>
+<junction x="289.56" y="220.98"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="DI"/>
-<wire x1="25.4" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
-<junction x="22.86" y="71.12"/>
-<label x="27.94" y="71.12" size="1.778" layer="95"/>
+<wire x1="307.34" y1="154.94" x2="304.8" y2="154.94" width="0.1524" layer="91"/>
+<junction x="304.8" y="154.94"/>
+<label x="309.88" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DO" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="DO"/>
-<wire x1="22.86" y1="63.5" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
-<label x="27.94" y="63.5" size="1.778" layer="95"/>
-<junction x="22.86" y="63.5"/>
+<wire x1="304.8" y1="147.32" x2="307.34" y2="147.32" width="0.1524" layer="91"/>
+<label x="309.88" y="147.32" size="1.778" layer="95"/>
+<junction x="304.8" y="147.32"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="111.76" y1="73.66" x2="109.22" y2="73.66" width="0.1524" layer="91"/>
-<label x="109.22" y="73.66" size="1.778" layer="95"/>
-<junction x="111.76" y="73.66"/>
+<wire x1="314.96" y1="220.98" x2="312.42" y2="220.98" width="0.1524" layer="91"/>
+<label x="312.42" y="220.98" size="1.778" layer="95"/>
+<junction x="314.96" y="220.98"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="VBUS"/>
-<wire x1="124.46" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
-<junction x="124.46" y="96.52"/>
+<wire x1="327.66" y1="96.52" x2="325.12" y2="96.52" width="0.1524" layer="91"/>
+<junction x="327.66" y="96.52"/>
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="91.44" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
-<label x="99.06" y="96.52" size="1.778" layer="95"/>
-<junction x="99.06" y="91.44"/>
+<wire x1="302.26" y1="238.76" x2="302.26" y2="241.3" width="0.1524" layer="91"/>
+<label x="302.26" y="243.84" size="1.778" layer="95"/>
+<junction x="302.26" y="238.76"/>
 </segment>
 <segment>
 <pinref part="U3" gate="U1" pin="SCL"/>
-<wire x1="322.58" y1="76.2" x2="325.12" y2="76.2" width="0.1524" layer="91"/>
-<label x="325.12" y="76.2" size="1.778" layer="95"/>
+<wire x1="299.72" y1="99.06" x2="302.26" y2="99.06" width="0.1524" layer="91"/>
+<label x="302.26" y="99.06" size="1.778" layer="95"/>
+<junction x="299.72" y="99.06"/>
 </segment>
 </net>
 <net name="5V" class="0">
 <segment>
 <pinref part="F1" gate="G$1" pin="1"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
-<junction x="99.06" y="78.74"/>
-<junction x="111.76" y="78.74"/>
-<label x="104.14" y="78.74" size="1.778" layer="95"/>
+<wire x1="302.26" y1="226.06" x2="314.96" y2="226.06" width="0.1524" layer="91"/>
+<junction x="302.26" y="226.06"/>
+<junction x="314.96" y="226.06"/>
+<label x="307.34" y="226.06" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="86.36" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
-<junction x="86.36" y="78.74"/>
+<wire x1="289.56" y1="226.06" x2="302.26" y2="226.06" width="0.1524" layer="91"/>
+<junction x="289.56" y="226.06"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="VDD"/>
-<wire x1="-10.16" y1="71.12" x2="-5.08" y2="71.12" width="0.1524" layer="91"/>
-<junction x="-5.08" y="71.12"/>
-<label x="-15.24" y="71.12" size="1.778" layer="95"/>
+<wire x1="271.78" y1="154.94" x2="276.86" y2="154.94" width="0.1524" layer="91"/>
+<junction x="276.86" y="154.94"/>
+<label x="266.7" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
-<label x="134.62" y="22.86" size="1.778" layer="95"/>
-<junction x="129.54" y="22.86"/>
+<wire x1="297.18" y1="60.96" x2="299.72" y2="60.96" width="0.1524" layer="91"/>
+<label x="302.26" y="60.96" size="1.778" layer="95"/>
+<junction x="297.18" y="60.96"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VIN"/>
-<wire x1="33.02" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
-<label x="22.86" y="124.46" size="1.778" layer="95"/>
-<junction x="33.02" y="124.46"/>
+<wire x1="104.14" y1="198.12" x2="101.6" y2="198.12" width="0.1524" layer="91"/>
+<label x="93.98" y="198.12" size="1.778" layer="95"/>
+<junction x="104.14" y="198.12"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="139.7" x2="33.02" y2="142.24" width="0.1524" layer="91"/>
-<label x="33.02" y="144.78" size="1.778" layer="95"/>
-<junction x="33.02" y="139.7"/>
+<wire x1="104.14" y1="213.36" x2="104.14" y2="215.9" width="0.1524" layer="91"/>
+<label x="104.14" y="218.44" size="1.778" layer="95"/>
+<junction x="104.14" y="213.36"/>
 </segment>
 <segment>
-<wire x1="294.64" y1="127" x2="297.18" y2="127" width="0.1524" layer="91"/>
-<label x="297.18" y="127" size="1.778" layer="95"/>
+<wire x1="205.74" y1="203.2" x2="208.28" y2="203.2" width="0.1524" layer="91"/>
+<label x="208.28" y="203.2" size="1.778" layer="95"/>
 <pinref part="J7" gate="G$1" pin="2"/>
-<junction x="294.64" y="127"/>
+<junction x="205.74" y="203.2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="EN"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<junction x="33.02" y="129.54"/>
+<junction x="104.14" y="203.2"/>
 </segment>
 </net>
 <net name="PB11" class="0">
@@ -9154,10 +9157,10 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <junction x="228.6" y="78.74"/>
 </segment>
 <segment>
-<wire x1="279.4" y1="124.46" x2="276.86" y2="124.46" width="0.1524" layer="91"/>
-<label x="271.78" y="124.46" size="1.778" layer="95"/>
+<wire x1="190.5" y1="200.66" x2="187.96" y2="200.66" width="0.1524" layer="91"/>
+<label x="182.88" y="200.66" size="1.778" layer="95"/>
 <pinref part="J7" gate="G$1" pin="3"/>
-<junction x="279.4" y="124.46"/>
+<junction x="190.5" y="200.66"/>
 </segment>
 </net>
 <net name="PA12" class="0">
@@ -9168,10 +9171,10 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <junction x="228.6" y="129.54"/>
 </segment>
 <segment>
-<wire x1="279.4" y1="121.92" x2="276.86" y2="121.92" width="0.1524" layer="91"/>
-<label x="271.78" y="121.92" size="1.778" layer="95"/>
+<wire x1="190.5" y1="198.12" x2="187.96" y2="198.12" width="0.1524" layer="91"/>
+<label x="182.88" y="198.12" size="1.778" layer="95"/>
 <pinref part="J7" gate="G$1" pin="5"/>
-<junction x="279.4" y="121.92"/>
+<junction x="190.5" y="198.12"/>
 </segment>
 </net>
 <net name="PA13" class="0">
@@ -9182,10 +9185,10 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <junction x="228.6" y="127"/>
 </segment>
 <segment>
-<wire x1="279.4" y1="119.38" x2="276.86" y2="119.38" width="0.1524" layer="91"/>
-<label x="271.78" y="119.38" size="1.778" layer="95"/>
+<wire x1="190.5" y1="195.58" x2="187.96" y2="195.58" width="0.1524" layer="91"/>
+<label x="182.88" y="195.58" size="1.778" layer="95"/>
 <pinref part="J7" gate="G$1" pin="7"/>
-<junction x="279.4" y="119.38"/>
+<junction x="190.5" y="195.58"/>
 </segment>
 </net>
 <net name="PA20" class="0">
@@ -9196,10 +9199,10 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <junction x="228.6" y="109.22"/>
 </segment>
 <segment>
-<wire x1="294.64" y1="119.38" x2="297.18" y2="119.38" width="0.1524" layer="91"/>
-<label x="297.18" y="119.38" size="1.778" layer="95"/>
+<wire x1="205.74" y1="195.58" x2="208.28" y2="195.58" width="0.1524" layer="91"/>
+<label x="208.28" y="195.58" size="1.778" layer="95"/>
 <pinref part="J7" gate="G$1" pin="8"/>
-<junction x="294.64" y="119.38"/>
+<junction x="205.74" y="195.58"/>
 </segment>
 </net>
 <net name="PA21" class="0">
@@ -9210,10 +9213,10 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <junction x="228.6" y="106.68"/>
 </segment>
 <segment>
-<wire x1="294.64" y1="121.92" x2="297.18" y2="121.92" width="0.1524" layer="91"/>
-<label x="297.18" y="121.92" size="1.778" layer="95"/>
+<wire x1="205.74" y1="198.12" x2="208.28" y2="198.12" width="0.1524" layer="91"/>
+<label x="208.28" y="198.12" size="1.778" layer="95"/>
 <pinref part="J7" gate="G$1" pin="6"/>
-<junction x="294.64" y="121.92"/>
+<junction x="205.74" y="198.12"/>
 </segment>
 </net>
 <net name="PA22" class="0">
@@ -9224,10 +9227,10 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <junction x="228.6" y="104.14"/>
 </segment>
 <segment>
-<wire x1="294.64" y1="124.46" x2="297.18" y2="124.46" width="0.1524" layer="91"/>
-<label x="297.18" y="124.46" size="1.778" layer="95"/>
+<wire x1="205.74" y1="200.66" x2="208.28" y2="200.66" width="0.1524" layer="91"/>
+<label x="208.28" y="200.66" size="1.778" layer="95"/>
 <pinref part="J7" gate="G$1" pin="4"/>
-<junction x="294.64" y="124.46"/>
+<junction x="205.74" y="200.66"/>
 </segment>
 </net>
 <net name="PA08" class="0">
@@ -9239,9 +9242,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="3"/>
-<wire x1="279.4" y1="101.6" x2="276.86" y2="101.6" width="0.1524" layer="91"/>
-<label x="271.78" y="101.6" size="1.778" layer="95"/>
-<junction x="279.4" y="101.6"/>
+<wire x1="190.5" y1="177.8" x2="187.96" y2="177.8" width="0.1524" layer="91"/>
+<label x="182.88" y="177.8" size="1.778" layer="95"/>
+<junction x="190.5" y="177.8"/>
 </segment>
 </net>
 <net name="PA09" class="0">
@@ -9253,9 +9256,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="5"/>
-<wire x1="279.4" y1="99.06" x2="276.86" y2="99.06" width="0.1524" layer="91"/>
-<label x="271.78" y="99.06" size="1.778" layer="95"/>
-<junction x="279.4" y="99.06"/>
+<wire x1="190.5" y1="175.26" x2="187.96" y2="175.26" width="0.1524" layer="91"/>
+<label x="182.88" y="175.26" size="1.778" layer="95"/>
+<junction x="190.5" y="175.26"/>
 </segment>
 </net>
 <net name="PA04" class="0">
@@ -9267,9 +9270,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="7"/>
-<wire x1="279.4" y1="96.52" x2="276.86" y2="96.52" width="0.1524" layer="91"/>
-<label x="271.78" y="96.52" size="1.778" layer="95"/>
-<junction x="279.4" y="96.52"/>
+<wire x1="190.5" y1="172.72" x2="187.96" y2="172.72" width="0.1524" layer="91"/>
+<label x="182.88" y="172.72" size="1.778" layer="95"/>
+<junction x="190.5" y="172.72"/>
 </segment>
 </net>
 <net name="PA05" class="0">
@@ -9281,9 +9284,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="8"/>
-<wire x1="294.64" y1="96.52" x2="297.18" y2="96.52" width="0.1524" layer="91"/>
-<label x="297.18" y="96.52" size="1.778" layer="95"/>
-<junction x="294.64" y="96.52"/>
+<wire x1="205.74" y1="172.72" x2="208.28" y2="172.72" width="0.1524" layer="91"/>
+<label x="208.28" y="172.72" size="1.778" layer="95"/>
+<junction x="205.74" y="172.72"/>
 </segment>
 </net>
 <net name="PA06" class="0">
@@ -9295,9 +9298,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="6"/>
-<wire x1="294.64" y1="99.06" x2="297.18" y2="99.06" width="0.1524" layer="91"/>
-<label x="297.18" y="99.06" size="1.778" layer="95"/>
-<junction x="294.64" y="99.06"/>
+<wire x1="205.74" y1="175.26" x2="208.28" y2="175.26" width="0.1524" layer="91"/>
+<label x="208.28" y="175.26" size="1.778" layer="95"/>
+<junction x="205.74" y="175.26"/>
 </segment>
 </net>
 <net name="PA07" class="0">
@@ -9309,35 +9312,37 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="4"/>
-<wire x1="297.18" y1="101.6" x2="294.64" y2="101.6" width="0.1524" layer="91"/>
-<label x="297.18" y="101.6" size="1.778" layer="95"/>
-<junction x="294.64" y="101.6"/>
+<wire x1="208.28" y1="177.8" x2="205.74" y2="177.8" width="0.1524" layer="91"/>
+<label x="208.28" y="177.8" size="1.778" layer="95"/>
+<junction x="205.74" y="177.8"/>
 </segment>
 </net>
 <net name="DI-" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="D-"/>
-<wire x1="124.46" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
-<junction x="124.46" y="93.98"/>
-<label x="127" y="93.98" size="1.778" layer="95"/>
+<wire x1="327.66" y1="99.06" x2="325.12" y2="99.06" width="0.1524" layer="91"/>
+<junction x="327.66" y="99.06"/>
+<label x="325.12" y="99.06" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U3" gate="U1" pin="VDD"/>
-<wire x1="302.26" y1="73.66" x2="299.72" y2="73.66" width="0.1524" layer="91"/>
-<label x="297.18" y="73.66" size="1.778" layer="95"/>
+<wire x1="279.4" y1="96.52" x2="276.86" y2="96.52" width="0.1524" layer="91"/>
+<label x="274.32" y="96.52" size="1.778" layer="95"/>
+<junction x="279.4" y="96.52"/>
 </segment>
 </net>
 <net name="DI+" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="D+"/>
-<wire x1="124.46" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
-<junction x="124.46" y="91.44"/>
-<label x="127" y="91.44" size="1.778" layer="95"/>
+<wire x1="327.66" y1="101.6" x2="325.12" y2="101.6" width="0.1524" layer="91"/>
+<junction x="327.66" y="101.6"/>
+<label x="325.12" y="101.6" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U3" gate="U1" pin="SDA"/>
-<wire x1="322.58" y1="73.66" x2="325.12" y2="73.66" width="0.1524" layer="91"/>
-<label x="325.12" y="73.66" size="1.778" layer="95"/>
+<wire x1="299.72" y1="96.52" x2="302.26" y2="96.52" width="0.1524" layer="91"/>
+<label x="302.26" y="96.52" size="1.778" layer="95"/>
+<junction x="299.72" y="96.52"/>
 </segment>
 </net>
 <net name="DO-" class="0">
@@ -9349,8 +9354,9 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="U3" gate="U1" pin="VOUT"/>
-<wire x1="302.26" y1="78.74" x2="299.72" y2="78.74" width="0.1524" layer="91"/>
-<label x="297.18" y="78.74" size="1.778" layer="95"/>
+<wire x1="279.4" y1="101.6" x2="276.86" y2="101.6" width="0.1524" layer="91"/>
+<label x="274.32" y="101.6" size="1.778" layer="95"/>
+<junction x="279.4" y="101.6"/>
 </segment>
 </net>
 <net name="DO+" class="0">
@@ -9362,18 +9368,19 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </segment>
 <segment>
 <pinref part="U3" gate="U1" pin="AO"/>
-<wire x1="322.58" y1="78.74" x2="325.12" y2="78.74" width="0.1524" layer="91"/>
-<label x="325.12" y="78.74" size="1.778" layer="95"/>
+<wire x1="299.72" y1="101.6" x2="302.26" y2="101.6" width="0.1524" layer="91"/>
+<label x="302.26" y="101.6" size="1.778" layer="95"/>
+<junction x="299.72" y="101.6"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="U$2" gate="A" pin="IO"/>
 <pinref part="U$1" gate="G$1" pin="P$1"/>
-<wire x1="119.38" y1="22.86" x2="109.22" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="60.96" x2="276.86" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<junction x="119.38" y="22.86"/>
-<junction x="109.22" y="22.86"/>
+<junction x="287.02" y="60.96"/>
+<junction x="276.86" y="60.96"/>
 </segment>
 </net>
 <net name="N$12" class="0">

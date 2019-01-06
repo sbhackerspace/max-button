@@ -2889,9 +2889,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="U1" pad="1"/>
 <contactref element="Y1" pad="2"/>
 <contactref element="C4" pad="2"/>
-<wire x1="30.4" y1="11.75" x2="31.25" y2="11.75" width="0.254" layer="16"/>
-<wire x1="32.524" y1="13.024" x2="33" y2="13.024" width="0.254" layer="16"/>
-<wire x1="31.25" y1="11.75" x2="32.524" y2="13.024" width="0.254" layer="16"/>
+<wire x1="30.4" y1="11.75" x2="31.3" y2="11.75" width="0.254" layer="16"/>
+<wire x1="32.574" y1="13.024" x2="33" y2="13.024" width="0.254" layer="16"/>
+<wire x1="31.3" y1="11.75" x2="32.574" y2="13.024" width="0.254" layer="16"/>
 <wire x1="34.92" y1="12.5" x2="34.396" y2="13.024" width="0.254" layer="16"/>
 <wire x1="34.396" y1="13.024" x2="33" y2="13.024" width="0.254" layer="16"/>
 </signal>

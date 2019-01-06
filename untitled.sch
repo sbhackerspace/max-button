@@ -8581,7 +8581,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <part name="F1" library="SparkFun-Fuses" library_urn="urn:adsk.eagle:library:517" deviceset="PPTC" device="_HALF-AMP" package3d_urn="urn:adsk.eagle:package:38575/1" value="6V/0.5A"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="U2" library="MIC5501-3.0YM5-TR" deviceset="MIC5501-3.0YM5-TR" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -8715,9 +8714,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <instance part="SUPPLY7" gate="G$1" x="147.32" y="144.78" smashed="yes">
 <attribute name="VALUE" x="147.32" y="147.574" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="154.94" y="142.24" smashed="yes">
-<attribute name="VALUE" x="154.94" y="145.034" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="U2" gate="G$1" x="116.84" y="200.66" smashed="yes">
 <attribute name="NAME" x="106.68" y="206.248" size="1.778" layer="95"/>
 <attribute name="VALUE" x="106.68" y="193.04" size="1.778" layer="96"/>
@@ -8834,14 +8830,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <junction x="160.02" y="144.78"/>
 <junction x="147.32" y="144.78"/>
 <pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="VDDCORE"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="142.24" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
-<junction x="154.94" y="142.24"/>
-<junction x="160.02" y="142.24"/>
-<pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VOUT"/>
@@ -9403,6 +9391,15 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <pinref part="C4" gate="G$1" pin="2"/>
 <junction x="149.86" y="120.65"/>
 <junction x="160.02" y="119.38"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VDDCORE"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="142.24" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
+<junction x="160.02" y="142.24"/>
+<junction x="154.94" y="142.24"/>
 </segment>
 </net>
 </nets>
