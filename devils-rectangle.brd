@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -176,6 +176,8 @@
 <circle x="46" y="20" radius="0.25" width="0.254" layer="26"/>
 <text x="22" y="39" size="1.778" layer="25">&lt;3 -Swiss</text>
 <text x="18" y="36.5" size="1.778" layer="25">SBHackerspace</text>
+<text x="36" y="29" size="1.778" layer="25">WS2812B = 1</text>
+<text x="36" y="26.5" size="1.778" layer="25">1Wire = 23</text>
 </plain>
 <libraries>
 <library name="novelkey">
