@@ -9203,9 +9203,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <junction x="345.44" y="132.08"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PB23(SER5:3+)"/>
-<wire x1="228.6" y1="73.66" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
-<label x="231.14" y="73.66" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="PB08(AIN2/SER4:0/TC4:0)"/>
+<wire x1="160.02" y1="91.44" x2="157.48" y2="91.44" width="0.1524" layer="91"/>
+<junction x="160.02" y="91.44"/>
+<label x="149.86" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DO" class="0">
@@ -9376,12 +9377,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </segment>
 </net>
 <net name="PA08" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PB08(AIN2/SER4:0/TC4:0)"/>
-<wire x1="160.02" y1="91.44" x2="157.48" y2="91.44" width="0.1524" layer="91"/>
-<junction x="160.02" y="91.44"/>
-<label x="149.86" y="91.44" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="3"/>
 <wire x1="190.5" y1="177.8" x2="187.96" y2="177.8" width="0.1524" layer="91"/>
