@@ -8475,70 +8475,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 </deviceset>
 </devicesets>
 </library>
-<library name="Seeed-Crystal Oscillator" urn="urn:adsk.eagle:library:466">
-<packages>
-<package name="X2-SMD-3.2X1.5X0.55MM" urn="urn:adsk.eagle:footprint:32477/1" library_version="1">
-<wire x1="-1.1" y1="0.75" x2="1.1" y2="0.75" width="0.127" layer="21"/>
-<wire x1="1.1" y1="-0.75" x2="-1.1" y2="-0.75" width="0.127" layer="21"/>
-<smd name="1" x="-1.524" y="0" dx="1.524" dy="0.762" layer="1" roundness="20" rot="R90"/>
-<smd name="2" x="1.524" y="0" dx="1.524" dy="0.762" layer="1" roundness="20" rot="R90"/>
-<text x="-1.651" y="1.016" size="0.889" layer="25" ratio="11">&gt;name</text>
-<text x="-1.651" y="-1.905" size="0.889" layer="27" ratio="11">&gt;value</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="X2-SMD-3.2X1.5X0.55MM" urn="urn:adsk.eagle:package:32493/1" type="box" library_version="1">
-<packageinstances>
-<packageinstance name="X2-SMD-3.2X1.5X0.55MM"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="CRYSTAL" urn="urn:adsk.eagle:symbol:32468/1" library_version="1">
-<wire x1="1.016" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="0" width="0.254" layer="94"/>
-<wire x1="1.016" y1="0" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<text x="-2.54" y="2.54" size="1.27" layer="95" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.27" layer="96" ratio="10">&gt;VALUE</text>
-<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
-<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
-<pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SMD-CRYSTAL-ABS07-32.768KHZ-7PF-20PPM-70K(2P-3.2X1.5MM)" urn="urn:adsk.eagle:component:32495/1" prefix="Y" uservalue="yes" library_version="1">
-<description>306010055</description>
-<gates>
-<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="X2-SMD-3.2X1.5X0.55MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32493/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="FC-135" constant="no"/>
-<attribute name="VALUE" value="32.768KHZ"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="74xx-custom">
 <description>&lt;b&gt;Single and Dual Gates Family, US symbols&lt;/b&gt;&lt;p&gt;
 Little logic devices from Texas Instruments&lt;br&gt;
@@ -8739,10 +8675,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="U3" library="SparkFun-IC-Conversion" library_urn="urn:adsk.eagle:library:522" deviceset="MCP4725" device="SOT-23" package3d_urn="urn:adsk.eagle:package:38775/1" value="TPD2S017"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Y1" library="Seeed-Crystal Oscillator" library_urn="urn:adsk.eagle:library:466" deviceset="SMD-CRYSTAL-ABS07-32.768KHZ-7PF-20PPM-70K(2P-3.2X1.5MM)" device="" package3d_urn="urn:adsk.eagle:package:32493/1" value="32.768KHZ"/>
-<part name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="7pf"/>
-<part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="7pf"/>
-<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="74xx-custom" deviceset="74*1G125" device="DBV" package3d_urn="urn:adsk.eagle:package:2482/1" technology="AHC"/>
 </parts>
 <sheets>
@@ -8897,21 +8829,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </instance>
 <instance part="GND10" gate="1" x="287.02" y="27.94" smashed="yes">
 <attribute name="VALUE" x="284.48" y="25.4" size="1.778" layer="96"/>
-</instance>
-<instance part="Y1" gate="G$1" x="149.86" y="116.84" smashed="yes" rot="R90">
-<attribute name="NAME" x="147.32" y="114.3" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="153.67" y="114.3" size="1.27" layer="96" ratio="10" rot="R90"/>
-</instance>
-<instance part="C4" gate="G$1" x="147.32" y="120.65" smashed="yes" rot="R90">
-<attribute name="NAME" x="146.685" y="121.666" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="151.511" y="121.666" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C5" gate="G$1" x="147.32" y="113.03" smashed="yes" rot="R90">
-<attribute name="NAME" x="146.685" y="114.046" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="151.511" y="114.046" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND13" gate="1" x="142.24" y="107.95" smashed="yes">
-<attribute name="VALUE" x="139.7" y="105.41" size="1.778" layer="96"/>
 </instance>
 <instance part="IC1" gate="A" x="355.6" y="132.08" smashed="yes">
 <attribute name="NAME" x="358.14" y="135.255" size="1.778" layer="95"/>
@@ -9117,16 +9034,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <pinref part="U$1" gate="G$1" pin="P$2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <junction x="287.02" y="30.48"/>
-</segment>
-<segment>
-<pinref part="C5" gate="G$1" pin="1"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="142.24" y1="110.49" x2="142.24" y2="113.03" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="120.65" x2="142.24" y2="113.03" width="0.1524" layer="91"/>
-<junction x="142.24" y="113.03"/>
-<junction x="142.24" y="120.65"/>
-<junction x="142.24" y="110.49"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="A" pin="OE"/>
@@ -9376,14 +9283,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <junction x="205.74" y="200.66"/>
 </segment>
 </net>
-<net name="PA08" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="3"/>
-<wire x1="190.5" y1="177.8" x2="187.96" y2="177.8" width="0.1524" layer="91"/>
-<label x="182.88" y="177.8" size="1.778" layer="95"/>
-<junction x="190.5" y="177.8"/>
-</segment>
-</net>
 <net name="PA09" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB09(AIN3/SER4:1/TC4:1)"/>
@@ -9520,28 +9419,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <junction x="276.86" y="60.96"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA01(XOUT32/SER1:1/TC2:1)"/>
-<pinref part="Y1" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="114.3" x2="160.02" y2="113.03" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="113.03" x2="149.86" y2="113.03" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<junction x="149.86" y="113.03"/>
-<junction x="160.02" y="114.3"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PA00(XIN32/SER1:0/TC2:0)"/>
-<pinref part="Y1" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="119.38" x2="160.02" y2="120.65" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="120.65" x2="149.86" y2="120.65" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<junction x="149.86" y="120.65"/>
-<junction x="160.02" y="119.38"/>
-</segment>
-</net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VDDCORE"/>
@@ -9570,6 +9447,20 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="289.56" y1="220.98" x2="292.1" y2="220.98" width="0.1524" layer="91"/>
 <label x="289.56" y="220.98" size="1.778" layer="95"/>
 <junction x="289.56" y="220.98"/>
+</segment>
+</net>
+<net name="PA03" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PA03(AIN1/REFA)"/>
+<wire x1="160.02" y1="109.22" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
+<label x="149.86" y="109.22" size="1.778" layer="95"/>
+<junction x="160.02" y="109.22"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="3"/>
+<wire x1="190.5" y1="177.8" x2="187.96" y2="177.8" width="0.1524" layer="91"/>
+<label x="182.88" y="177.8" size="1.778" layer="95"/>
+<junction x="190.5" y="177.8"/>
 </segment>
 </net>
 </nets>

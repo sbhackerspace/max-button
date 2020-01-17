@@ -2026,25 +2026,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package3d>
 </packages3d>
 </library>
-<library name="Seeed-Crystal Oscillator" urn="urn:adsk.eagle:library:466">
-<packages>
-<package name="X2-SMD-3.2X1.5X0.55MM" urn="urn:adsk.eagle:footprint:32477/1" library_version="1">
-<wire x1="-1.1" y1="0.75" x2="1.1" y2="0.75" width="0.127" layer="21"/>
-<wire x1="1.1" y1="-0.75" x2="-1.1" y2="-0.75" width="0.127" layer="21"/>
-<smd name="1" x="-1.524" y="0" dx="1.524" dy="0.762" layer="1" roundness="20" rot="R90"/>
-<smd name="2" x="1.524" y="0" dx="1.524" dy="0.762" layer="1" roundness="20" rot="R90"/>
-<text x="-1.651" y="1.016" size="0.889" layer="25" ratio="11">&gt;name</text>
-<text x="-1.651" y="-1.905" size="0.889" layer="27" ratio="11">&gt;value</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="X2-SMD-3.2X1.5X0.55MM" urn="urn:adsk.eagle:package:32493/1" type="box" library_version="1">
-<packageinstances>
-<packageinstance name="X2-SMD-3.2X1.5X0.55MM"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="74xx-custom">
 <description>&lt;b&gt;Single and Dual Gates Family, US symbols&lt;/b&gt;&lt;p&gt;
 Little logic devices from Texas Instruments&lt;br&gt;
@@ -2388,20 +2369,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="SPICEPREFIX" value="R" x="9.8" y="27.55" size="0.8128" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="10.165" y="26.955" size="0.6096" layer="28" rot="MR180"/>
 </element>
-<element name="Y1" library="Seeed-Crystal Oscillator" library_urn="urn:adsk.eagle:library:466" package="X2-SMD-3.2X1.5X0.55MM" package3d_urn="urn:adsk.eagle:package:32493/1" value="32.768KHZ" x="33" y="11.5" smashed="yes" rot="MR90">
-<attribute name="MPN" value="FC-135" x="33" y="11.5" size="0.8128" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="31.516" y="10.849" size="0.6096" layer="26" ratio="11" rot="MR90"/>
-</element>
-<element name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="7pf" x="35.5" y="12.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="35.5" y="13.262" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-12416" x="35.5" y="12.5" size="0.8128" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="36.762" y="12.5" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
-</element>
-<element name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:37413/1" value="7pf" x="35.5" y="10.5" smashed="yes" rot="MR0">
-<attribute name="NAME" x="35.5" y="11.262" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-12416" x="35.5" y="10.5" size="0.8128" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="36.762" y="10.5" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
-</element>
 <element name="IC1" library="74xx-custom" package="SOT23-5" package3d_urn="urn:adsk.eagle:package:2482/1" value="74AHC1G125DBV" x="24.5" y="3.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.96" y="0.96" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="28.04" y="1.31" size="0.6096" layer="27" rot="R180"/>
@@ -2484,14 +2451,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="24.423" y1="10.6" x2="22.1" y2="10.6" width="0.254" layer="1"/>
 <wire x1="22.1" y1="10.6" x2="21" y2="9.5" width="0.254" layer="1"/>
 <via x="21" y="9.5" extent="1-16" drill="0.35"/>
-<contactref element="C5" pad="1"/>
-<contactref element="C4" pad="1"/>
 <wire x1="30.4" y1="9.75" x2="31.55" y2="9.75" width="0.254" layer="16"/>
 <wire x1="31.55" y1="9.75" x2="32.25" y2="9.05" width="0.254" layer="16"/>
 <wire x1="32.25" y1="9.05" x2="33.75" y2="9.05" width="0.254" layer="16"/>
 <wire x1="33.75" y1="9.05" x2="34" y2="9.3" width="0.254" layer="16"/>
 <wire x1="34" y1="9.3" x2="35.8" y2="9.3" width="0.254" layer="16"/>
-<wire x1="36.08" y1="9.58" x2="36.08" y2="10.5" width="0.254" layer="16"/>
 <wire x1="35.8" y1="9.3" x2="36.08" y2="9.58" width="0.254" layer="16"/>
 <contactref element="IC1" pad="3"/>
 <contactref element="IC1" pad="1"/>
@@ -2539,7 +2503,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <contactref element="R1" pad="1"/>
 <contactref element="J3" pad="10"/>
 <wire x1="23.925" y1="15.075" x2="20.075" y2="15.075" width="0.254" layer="16"/>
-<wire x1="25.75" y1="12.4" x2="25.7544" y2="12.4044" width="0.254" layer="16"/>
 <via x="25.2" y="15.2" extent="1-16" drill="0.35"/>
 <wire x1="35.54" y1="15.365" x2="35.54" y2="15.02144375" width="0.254" layer="1"/>
 <wire x1="35.54" y1="15.02144375" x2="34.36095625" y2="13.8424" width="0.254" layer="1"/>
@@ -2806,10 +2769,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="13.73" y1="6.37" x2="13.52" y2="6.58" width="0.3048" layer="16"/>
 <wire x1="13.52" y1="6.58" x2="13.5" y2="6.58" width="0.3048" layer="16"/>
 </signal>
-<signal name="PA08">
-<contactref element="J5" pad="3"/>
-<wire x1="39.47" y1="9.97" x2="39.53" y2="9.97" width="0.254" layer="16"/>
-</signal>
 <signal name="PA09">
 <contactref element="U1" pad="8"/>
 <contactref element="J5" pad="5"/>
@@ -2929,27 +2888,6 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="12" y1="28" x2="12" y2="37.61" width="0.254" layer="1"/>
 <wire x1="12" y1="37.61" x2="11.76" y2="37.85" width="0.254" layer="1"/>
 </signal>
-<signal name="N$12">
-<contactref element="U1" pad="2"/>
-<contactref element="Y1" pad="1"/>
-<contactref element="C5" pad="2"/>
-<wire x1="33" y1="10" x2="33" y2="9.976" width="0.254" layer="16"/>
-<wire x1="33" y1="9.976" x2="34.396" y2="9.976" width="0.254" layer="16"/>
-<wire x1="34.396" y1="9.976" x2="34.92" y2="10.5" width="0.254" layer="16"/>
-<wire x1="30.4" y1="11.25" x2="31.28881875" y2="11.25" width="0.254" layer="16"/>
-<wire x1="32.53881875" y1="10" x2="33" y2="10" width="0.254" layer="16"/>
-<wire x1="31.28881875" y1="11.25" x2="32.53881875" y2="10" width="0.254" layer="16"/>
-</signal>
-<signal name="N$13">
-<contactref element="U1" pad="1"/>
-<contactref element="Y1" pad="2"/>
-<contactref element="C4" pad="2"/>
-<wire x1="30.4" y1="11.75" x2="31.3" y2="11.75" width="0.254" layer="16"/>
-<wire x1="32.574" y1="13.024" x2="33" y2="13.024" width="0.254" layer="16"/>
-<wire x1="31.3" y1="11.75" x2="32.574" y2="13.024" width="0.254" layer="16"/>
-<wire x1="34.92" y1="12.5" x2="34.396" y2="13.024" width="0.254" layer="16"/>
-<wire x1="34.396" y1="13.024" x2="33" y2="13.024" width="0.254" layer="16"/>
-</signal>
 <signal name="N$14">
 <contactref element="U1" pad="43"/>
 <contactref element="C1" pad="1"/>
@@ -2977,6 +2915,17 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="23" y1="7.85" x2="23.45" y2="7.4" width="0.254" layer="1"/>
 <wire x1="17" y1="14.5" x2="20.4186" y2="11.0814" width="0.254" layer="1"/>
 <wire x1="23" y1="8.5" x2="23" y2="7.85" width="0.254" layer="1"/>
+</signal>
+<signal name="PA03">
+<contactref element="U1" pad="4"/>
+<contactref element="J5" pad="3"/>
+<wire x1="30.4" y1="10.25" x2="33.55" y2="10.25" width="0.254" layer="16"/>
+<wire x1="33.55" y1="10.25" x2="33.85" y2="9.95" width="0.254" layer="16"/>
+<wire x1="33.85" y1="9.95" x2="33.9" y2="10" width="0.254" layer="16"/>
+<wire x1="33.9" y1="10" x2="34" y2="10" width="0.254" layer="16"/>
+<via x="34" y="10" extent="1-16" drill="0.35"/>
+<wire x1="34" y1="10" x2="39.5" y2="10" width="0.254" layer="1"/>
+<wire x1="39.5" y1="10" x2="39.53" y2="9.97" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
